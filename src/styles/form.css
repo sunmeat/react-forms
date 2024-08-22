@@ -1,0 +1,88 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-width: 100%; 
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px; 
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: calc(100% - 16px); 
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+.form-container button {
+  padding: 12px 18px; 
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px; 
+}
+
+.form-container textarea {
+  height: 120px;
+  resize: none;
+}
+
+.submitted-data {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.submitted-data h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.submitted-data p {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.submitted-data pre {
+  margin: 0;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  color: #333;
+  white-space: pre-wrap;
+}
